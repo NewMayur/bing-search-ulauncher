@@ -1,4 +1,5 @@
 import webbrowser
+
 from ulauncher.api.client.EventListener import EventListener
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.shared.event import KeywordQueryEvent
