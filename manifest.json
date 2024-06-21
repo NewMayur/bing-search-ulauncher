@@ -1,11 +1,17 @@
 {
+    "required_api_version": "2",
     "name": "Bing Search",
     "description": "Search Bing Chat with a query",
-    "developer_name": "Your Name",
+    "developer_name": "NewMayur",
     "icon": "images/icon.png",
     "options": {},
-    "extensions": {
-        "BingSearchExtension": "main.BingSearchExtension"
-    },
-    "version": "1.0.0"
-}
+    "preferences": [
+      {
+        "id": "bing_kw",
+        "type": "bing",
+        "name": "Bing Search",
+        "description": "Bing Search",
+        "default_value": "Search Bing Chat with a query"
+      }
+    ]
+  }
