@@ -1,0 +1,11 @@
+{
+    "name": "Bing Search",
+    "description": "Search Bing Chat with a query",
+    "developer_name": "Your Name",
+    "icon": "images/icon.png",
+    "options": {},
+    "extensions": {
+        "BingSearchExtension": "main.BingSearchExtension"
+    },
+    "version": "1.0.0"
+}
